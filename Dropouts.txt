@@ -1,0 +1,5 @@
+PyCYC will automatically append a new line below any existing text that will state
+that there is "No connection at [date] [time]". It looks for a connection every
+60 seconds.
+
+*** After Implementing Python Script ***
