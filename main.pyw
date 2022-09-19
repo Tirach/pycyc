@@ -3,11 +3,6 @@ import requests
 import time
 from datetime import datetime
 
-# Set variables
-url = "https://www.google.com/"
-timeout = 5
-starttime = time.time()
-
 # Main function
 
 
@@ -23,5 +18,11 @@ def main():
             f.close()
         time.sleep(60.0 - ((time.time() - starttime) % 60.0))
 
+        
+# Set variables
+url = "https://www.google.com/"
+timeout = 5
+starttime = time.time()
 
+# Call main function
 main()
